@@ -1,0 +1,84 @@
+#feature {
+    height: auto;
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 65px;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    background: #E6022D;
+  }
+  
+  #feature h2 {
+    color: #fff;
+    font-size: 4rem;
+    margin: 2rem 0;
+  }
+  
+  #feature .card-container {
+    width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  
+  #feature .card-container .card {
+    width: 30rem;
+    height: 40rem;
+    margin: 2rem;
+    background: #fff;
+  }
+  
+  #feature .card-container .card img {
+    width: 100%;
+    height: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  #feature .card-container .card .content {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #feature .card-container .card .content h1 {
+    color: #E6022D;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  
+  #feature .card-container .card .content p {
+    font-size: 1.2rem;
+    padding: .5rem;
+  }
+  
+  #feature .card-container .card .content button {
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid #E6022D;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #E6022D;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  #feature .card-container .card .content button:hover {
+    background: #E6022D;
+    color: #fff;
+  }
+  
+  #feature .card-container .card:hover {
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+    -webkit-box-shadow: 0 0 1rem #333;
+            box-shadow: 0 0 1rem #333;
+  }

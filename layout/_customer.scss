@@ -1,0 +1,83 @@
+#gallery {
+  padding-top: 100px;
+  padding-bottom: 65px;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    height: auto;
+    width: 100vw;
+    background: #f7f7f7;
+  }
+  
+  #gallery h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #E6022D;
+    margin: 2rem 0;
+  }
+  
+  #gallery .image-container {
+    width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  #gallery .image-container .image {
+    height: 25rem;
+    width: 30rem;
+    margin: 2rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #gallery .image-container .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  #gallery .image-container .image .info {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  #gallery .image-container .image .info button {
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid #E6022D;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #E6022D;
+    font-weight: bold;
+  }
+  
+  #gallery .image-container .image .info button:hover {
+    background: #E6022D;
+    color: #fff;
+  }
+  
+  #gallery .image-container .image:hover .info {
+    bottom: 0%;
+  }

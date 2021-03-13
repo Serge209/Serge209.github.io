@@ -1,0 +1,56 @@
+#about {
+    height: auto;
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  
+  #about .image {
+    margin: 5rem 15rem;
+  }
+  
+  #about .image img {
+    width: 30rem;
+  }
+  
+  #about .content {
+    width: 90vw;
+  }
+  
+  #about .content h2 {
+    font-size: 4rem;
+    margin: 3rem 0;
+    color: #E6022D;
+  }
+  
+  #about .content p {
+    font-size: 2rem;
+    padding-right: 6rem;
+  }
+  
+  #about .content .buttons {
+    padding-right: 2rem;
+  }
+  
+  #about .content .buttons button {
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid #E6022D;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #E6022D;
+    font-weight: bold;
+    margin: 2rem 2rem 2rem 0;
+  }
+  
+  #about .content .buttons button:hover {
+    background: #E6022D;
+    color: #fff;
+  }
